@@ -89,5 +89,23 @@ Andererseits ist misst so ein Heizkostenverteiler sehr unzuverlässig und schnel
 ## Rohdaten
 Die Rohdaten der Messreihe finden sich im CSV-Format in diesem Repository.
 
+Zur Interpretation:
+### Rohdaten1.csv 
+enthält alle Messungen bis auf die Messung mit Lüfter auf 100 %
+
+16:25 Heizkörper wird aufgedreht bzw. Ventil abmontiert
+
+17:52 Lüfter werden montiert und drehen mit 50 % der Drehzahl
+
+18:42 Lüfter werden abgestellt
+
+20:45 Lüfter drehen mit 30 % der Drehzahl
+
+22:30 Heizkreispumpe deaktiviert, Lüfter bleiben an. Interessant ist der schnelle Abfall der Rücklauftemperatur
+
+### Rohdaten2.csv
+
+Hier drehen die Lüfter ab 10:45 Uhr auf voller Stufe bis kurz nach 12 Uhr
+
 ## Lizenz 
 Dieses Dokument inklusive der Rohdaten und Ressourcen wird unter der CC BY NC SA Lizenz veröffentlicht https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de. Kommerzielle Nutzung kann auf Anfrage, je nach geplantem Verwendungszweck sogar kostenlos, gestattet werden.
